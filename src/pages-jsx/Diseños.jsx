@@ -7,8 +7,8 @@ const Diseños = () => {
     <div>
 
         <div className="centrar-textos">
-            <h2 className="titulos"> ¡Todo lo que necesitamos para diseñar tu CV! </h2>
-            <h3 className="titulos"> Datos, diseños, y mucho más</h3>
+            <h2 className="titulos-2"> ¡Todo lo que necesitamos para diseñar tu CV! </h2>
+            <h3 className="titulos-2"> Datos, diseños, y mucho más</h3>
         </div>
 
         <div className="grid1 espacios-verticales">

@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 const Contacto = () => {
   return (
     <div>
-        <div className='espacio-costados'>
+        <div className='espacio-costados fondo-celeste'>
             <div>
-                <h2 className="titulos">¡Hablemos! </h2>
-                <h4 className="titulos">Estamos aquí para responder a todas tus preguntas, escuchar tus comentarios y atender tus necesidades. Si deseas ponerte en contacto con nosotros, podes hacerlo a través de los siguientes medios: </h4>
+                <h2 className="titulos-1">¡Hablemos! </h2>
+                <h4 className="titulos-1">Estamos aquí para responder a todas tus preguntas, escuchar tus comentarios y atender tus necesidades. Si deseas ponerte en contacto con nosotros, podes hacerlo a través de los siguientes medios: </h4>
             </div>
 
             <div className='container-contactos'>
@@ -29,7 +29,7 @@ const Contacto = () => {
 
         <div className='grid1 espacios-verticales'>
       <div>
-        <h2 className='titulos'>También puedes unirte a nuestro CANAL DE OFERTAS DE TRABAJO</h2>
+        <h2 className='titulos-2'>También puedes unirte a nuestro CANAL DE OFERTAS DE TRABAJO</h2>
         <h3 className='espacios-verticales'>Hace clíck e ingresa a nuestro CANAL de Ofertas de trabajo en Whatsapp</h3>
         <Link target="_blank" to="https://whatsapp.com/channel/0029Vaie6xLCxoAwT5dPKc1U"><button className='boton-comenzar'>INGRESAR</button></Link>
       </div>

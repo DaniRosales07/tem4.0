@@ -76,8 +76,8 @@ const Carrito = () => {
   return (
     <section className='espacios-verticales'>
       <div className="container-formulario">
-        <h2 className="titulos"> Datos de Compra</h2>
-        <h4 className='titulos'>No olvides llenar los datos de contacto para comunicarnos con vos</h4>
+        <h2 className="titulos-2"> Datos de Compra</h2>
+        <h4 className='titulos-2 espacio-costados'>No olvides llenar los datos de contacto para comunicarnos con vos</h4>
         <form className="formulario" onSubmit={handleSubmit(handleFinalizarCompra)}>
           <input type="text" placeholder="Ingresa tu Nombre" {...register("nombre", { required: true })} />
           <input type="text" placeholder="Ingresa tu apellido" {...register("apellido", { required: true })} />
@@ -107,7 +107,7 @@ const Carrito = () => {
                   <button className='boton-contador' onClick={handleVaciar}>Vaciar Carrito</button>
                 </div> :
                 <div>
-                  <h2 className='titulos'> ¿Aún no hay artículos? Continúa explorando para aprovechar todas nuestras ofertas  </h2>
+                  <h2 className='titulos-2'> ¿Aún no hay artículos? Continúa explorando para aprovechar todas nuestras ofertas  </h2>
                   <Link to="/servicios/busqueda-laboral"><button className='boton-comenzar'>Comenzar</button></Link>
                 </div>
             }

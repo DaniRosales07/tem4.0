@@ -44,7 +44,7 @@ const TestimonialSlider = () => {
 
   return (
     <div className="espacios-verticales">
-    <h2 className="titulos">Nuestras Clientas</h2>
+    <h2 className="titulos-2">Nuestras Clientas</h2>
     <Swiper
     effect={'coverflow'}
     grabCursor={true}

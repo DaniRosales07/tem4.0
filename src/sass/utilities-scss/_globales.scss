@@ -37,7 +37,16 @@ p {
     font-size: nth($list: $fuentes-desktop, $n: 6);
 }
 
-.titulos {
+.titulos-1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2rem;
+    font-weight: 700;
+    color: $color-primario;
+}
+
+.titulos-2 {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -85,4 +94,9 @@ a:visited {
 .imagengrande {
     width: 60% !important;
     border-radius: 10px;
+}
+
+.fondo-celeste {
+    background-color: #007994;
+    color: white !important;
 }

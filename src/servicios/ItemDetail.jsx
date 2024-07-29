@@ -30,14 +30,14 @@ const ItemDetail = ({ item }) => {
   return (
     <section className="centrar-contenido">
       <div>
-        <h2 className="titulos espacios-verticales"> Detalles del Servicio</h2>
+        <h2 className="titulos-2 espacios-verticales"> Detalles del Servicio</h2>
       </div>
 
       <div className="container-servicio-detail">
         <div className='servicio-detail'>
           <img src={item.imagen} alt={item.titulo} />
           <div className="servicio-detail-div">
-            <h3 className="titulos">{item.titulo}</h3>
+            <h3 className="titulos-2">{item.titulo}</h3>
             <p>{item.descripcion}</p>
             <h3>Valor: $ {item.precio}</h3>
             <ItemCount 
