@@ -13,15 +13,15 @@ const Contacto = () => {
 
             <div className='container-contactos'>
             <Link target="_blank" className="contactos" to="https://instagram.com/trabajos.en.mendoza?igshid=bWg5aThqeGgwMmNw">
-            <img className="imagen-contactos" src="https://firebasestorage.googleapis.com/v0/b/nutrizone-official.appspot.com/o/INSTA.png?alt=media&token=725432ff-d166-40b8-9cf6-29970b420c6f" alt="logo-instagram" title="logo-instagram"/>
+            <img src="https://firebasestorage.googleapis.com/v0/b/nutrizone-official.appspot.com/o/INSTA.png?alt=media&token=725432ff-d166-40b8-9cf6-29970b420c6f" alt="logo-instagram" title="logo-instagram"/>
             </Link>
 
             <Link target="_blank" className="contactos" to="mailto:trabajos.en.mendoza@hotmail.com?subject=Consulta%20Web&body=%0Amailto:trabajos.en.mendoza@hotmail.com?subject=Consulta%20Web&body=%0A">
-            <img className="imagen-contactos" src="https://firebasestorage.googleapis.com/v0/b/nutrizone-official.appspot.com/o/MAIL.png?alt=media&token=725432ff-d166-40b8-9cf6-29970b420c6f" alt="logo-mail" title="logo-mail"/>
+            <img src="https://firebasestorage.googleapis.com/v0/b/nutrizone-official.appspot.com/o/MAIL.png?alt=media&token=725432ff-d166-40b8-9cf6-29970b420c6f" alt="logo-mail" title="logo-mail"/>
             </Link>
 
             <Link target="_blank" className="contactos" to="https://wa.link/y401jx">
-            <img className="imagen-contactos" src="https://firebasestorage.googleapis.com/v0/b/nutrizone-official.appspot.com/o/WSP.png?alt=media&token=725432ff-d166-40b8-9cf6-29970b420c6f" alt="logo-whatsapp" title="logo-whatsapp"/>
+            <img src="https://firebasestorage.googleapis.com/v0/b/nutrizone-official.appspot.com/o/WSP.png?alt=media&token=725432ff-d166-40b8-9cf6-29970b420c6f" alt="logo-whatsapp" title="logo-whatsapp"/>
             </Link>
 
             </div>
