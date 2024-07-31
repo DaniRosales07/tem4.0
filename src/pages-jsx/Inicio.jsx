@@ -14,7 +14,7 @@ const Inicio = () => {
         <Link to="/servicios/busqueda-laboral"><button className='boton-comenzar'>Comenzar</button></Link>
       </div>
       <div className='imagen-transparente fondo-celeste'>
-        <img src="https://firebasestorage.googleapis.com/v0/b/trabajosenmendoza-9801f.appspot.com/o/img-inicio.png?alt=media&token=6629a1a2-ed13-40f9-a505-2610679d88f5" alt="imagen inicio" />
+        <img src="https://firebasestorage.googleapis.com/v0/b/trabajosenmendoza-9801f.appspot.com/o/img-inicio.webp?alt=media&token=6629a1a2-ed13-40f9-a505-2610679d88f5" alt="imagen inicio" />
       
       </div>
       </div>

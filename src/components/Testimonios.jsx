@@ -13,32 +13,32 @@ const TestimonialSlider = () => {
     {
       name: "Cecilia",
       testimonial: "Estuvieron atentos a cada cosa que les pedía infinitamente agradecida.",
-      image: "https://firebasestorage.googleapis.com/v0/b/nutrizone-official.appspot.com/o/usuario1.png?alt=media&token=28539f33-013d-4682-be46-839ccc212845"
+      image: "https://firebasestorage.googleapis.com/v0/b/trabajosenmendoza-9801f.appspot.com/o/usuario1.webp?alt=media&token=60f0a59c-c743-4ce8-9d76-4a3c813e14d5"
     },
     {
       name: "Valeria",
       testimonial: "Pude cambiar de trabajo en re poquito tiempo, mil gracias por todo.",
-      image: "https://firebasestorage.googleapis.com/v0/b/nutrizone-official.appspot.com/o/usuario2.png?alt=media&token=28539f33-013d-4682-be46-839ccc212845"
+      image: "https://firebasestorage.googleapis.com/v0/b/trabajosenmendoza-9801f.appspot.com/o/usuario2.webp?alt=media&token=60f0a59c-c743-4ce8-9d76-4a3c813e14d5"
     },
     {
       name: "Maria Elena",
       testimonial: "Ame el servicio, super recomendable",
-      image: "https://firebasestorage.googleapis.com/v0/b/nutrizone-official.appspot.com/o/usuario3.png?alt=media&token=28539f33-013d-4682-be46-839ccc212845"
+      image: "https://firebasestorage.googleapis.com/v0/b/trabajosenmendoza-9801f.appspot.com/o/usuario3.webp?alt=media&token=60f0a59c-c743-4ce8-9d76-4a3c813e14d5"
     },
     {
       name: "Mariana",
       testimonial: "Me encantó como quedó mi CV la verdad que super contenta, gracias chicos",
-      image: "https://firebasestorage.googleapis.com/v0/b/nutrizone-official.appspot.com/o/usuario4.png?alt=media&token=28539f33-013d-4682-be46-839ccc212845"
+      image: "https://firebasestorage.googleapis.com/v0/b/trabajosenmendoza-9801f.appspot.com/o/usuario4.webp?alt=media&token=60f0a59c-c743-4ce8-9d76-4a3c813e14d5"
     },
     {
       name: "Julia",
       testimonial: "Quede sorprendida, me encanto la presentación y la redacción, impecables",
-      image: "https://firebasestorage.googleapis.com/v0/b/nutrizone-official.appspot.com/o/usuario5.png?alt=media&token=28539f33-013d-4682-be46-839ccc212845"
+      image: "https://firebasestorage.googleapis.com/v0/b/trabajosenmendoza-9801f.appspot.com/o/usuario5.webp?alt=media&token=60f0a59c-c743-4ce8-9d76-4a3c813e14d5"
     },
     {
       name: "Lucía",
       testimonial: "Si algo los define es gente que ayuda a gente, muchas gracias por la dedicación.",
-      image: "https://firebasestorage.googleapis.com/v0/b/nutrizone-official.appspot.com/o/usuario6.png?alt=media&token=28539f33-013d-4682-be46-839ccc212845"
+      image: "https://firebasestorage.googleapis.com/v0/b/trabajosenmendoza-9801f.appspot.com/o/usuario6.webp?alt=media&token=60f0a59c-c743-4ce8-9d76-4a3c813e14d5"
     }
   ];
 
