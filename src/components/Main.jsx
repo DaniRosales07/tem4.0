@@ -5,7 +5,6 @@ import ItemListContainer from '../servicios/ItemListContainer';
 import ItemDetailContainer from '../servicios/ItemDetailContainer'
 import Inicio from '../pages-jsx/Inicio';
 import Carrito from '../pages-jsx/Compras';
-import Diseños from '../pages-jsx/Diseños';
 
 function Main ()
 {
@@ -20,7 +19,6 @@ function Main ()
 <Route path='/servicios/:categoria' element= { <ItemListContainer/> } />
 <Route path='/item/:id' element= { <ItemDetailContainer /> } />
 <Route path='/Contacto' element= { <Contacto/> } />
-<Route path='/Diseños' element= { <Diseños/> } />
 </Routes>
 
   </main>

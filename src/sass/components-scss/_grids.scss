@@ -16,7 +16,7 @@
 }
 
 .grid1 img {
-    width: 40%;
+    width: 50%;
 }
 
 @media (max-width:720px) {
@@ -27,6 +27,15 @@
         }
     }
 }
+
+@media (max-width:1200px) {
+    .grid1 {
+        img {
+            width: 60%;
+        }
+    }
+}
+
 
 .grid2 {
     display: grid;

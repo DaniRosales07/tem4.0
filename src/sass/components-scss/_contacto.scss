@@ -1,17 +1,90 @@
-.container-contactos {
-    display: flex;
-    justify-content: space-between;
+/* Página Contacto */
+.pagina-contacto {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Introducción */
+  .introduccion-contacto {
     text-align: center;
-    padding: 2rem 2rem;
-    img {
-        width: 50%;
-    }
-}
-
-@media (max-width: 720px) {
+    margin-bottom: 2rem;
+  }
+  
+  .texto-descriptivo {
+    font-size: 1.8rem;
+    line-height: 1.6;
+  }
+  
+  /* Contenedores de Contacto */
+  .container-contactos {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+  }
+  
+  .contacto-item {
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .contacto-item img {
+    width: 60px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contacto-item:hover {
+    color: #007BFF;
+  }
+  
+  /* Canal de Ofertas */
+  .canal-trabajo {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  /* Formulario de Contacto */
+  .seccion-formulario {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 2rem auto;
+  }
+  
+  .formulario-contacto label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .formulario-contacto input, 
+  .formulario-contacto textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .boton-enviar {
+    background-color: #28a745;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .boton-enviar:hover {
+    background-color: #218838;
+  }
+  
+  /* Responsividad */
+  @media (max-width: 768px) {
     .container-contactos {
-        img {
-            width: 50%;
-        }
+      flex-direction: column;
+      align-items: center;
     }
-}
+  }

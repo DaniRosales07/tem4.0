@@ -2,11 +2,40 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem 2rem;
-    border: 4px solid $color-secundario;
-    border-radius: 15px;
+    padding: 1.5rem 3rem;
+    border: 3px solid $color-secundario;
+    border-radius: 8px;
     background-color: $color-primario;
     color: $color-secundario;
-    font-size: 2.5rem;
-    font-weight: 700;
+    font-size: 1.5rem;
+    font-weight: 800;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+
+    &:hover {
+        background-color: darken($color-secundario, 10%);
+        color: lighten($color-primario, 10%);
+        transform: translateY(-3px);
+        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+    }
+
+    &:active {
+        transform: translateY(1px);
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    // Media query para dispositivos móviles
+    @media (max-width: 768px) {
+        padding: 1.5rem 2.5rem; // Reduce padding en pantallas pequeñas
+        font-size: 1.5rem; // Disminuye tamaño de fuente
+        border-radius: 6px; // Menor curvatura en móviles
+    }
+
+    // Media query para pantallas muy pequeñas (teléfonos pequeños)
+    @media (max-width: 480px) {
+        padding: 1rem 2rem; // Más pequeño aún para pantallas muy pequeñas
+        font-size: 1rem;
+        border-radius: 5px;
+    }
 }
