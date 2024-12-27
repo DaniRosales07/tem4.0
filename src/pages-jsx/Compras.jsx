@@ -103,8 +103,8 @@ const Carrito = () => {
               carrito.length > 0 ?
                 <div className='total-compra'>
                   <h3>Total Compra: $ {precioTotal()}</h3>
-                  <button className='boton-contador' onClick={handleSubmit(handleFinalizarCompra)}>Realizar Compra</button>
-                  <button className='boton-contador' onClick={handleVaciar}>Vaciar Carrito</button>
+                  <button className='boton-compra' onClick={handleSubmit(handleFinalizarCompra)}>Realizar Compra</button>
+                  <button className='boton-compra' onClick={handleVaciar}>Vaciar Carrito</button>
                 </div> :
                 <div>
                   <h2 className='titulos-2'> ¿Aún no hay artículos? Continúa explorando para aprovechar todas nuestras ofertas  </h2>
